@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brownerie</title>
+
+    <!---Google fontes--->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background: linear-gradient(135deg, #0f0500, #2d1209);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .container {
+        width: 80%;
+        max-width: 600px;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        color: #b0883e;
+        margin: 0;
+        margin-top: 25px;
+        text-decoration: underline;
+        cursor: pointer;
+        text-shadow: 4px 4px 4px #040000fd;
+      }
+
+      li {
+        display: inline;
+        margin: 20px;
+        padding: 30;
+      }
+      .moreinfo {
+        text-decoration: underline;
+        color: #b0883e;
+      }
+      .topping {
+        text-decoration: underline;
+        color: #b0883e;
+      }
+      h1 {
+        font-family: "Lobster", sans-serif;
+        font-size: 80px;
+        color: #dfaa24;
+        margin: 0px;
+        font-weight: 400;
+        font-style: italic;
+        padding: 0;
+
+        text-shadow: 8px 8px 8px #040000fd;
+      }
+
+      h2 {
+        font-size: 30px;
+        color: #b0883e;
+        margin-top: 15px;
+        font-family: "Lobster", sans-serif;
+        font-weight: 100;
+        text-shadow: 8px 8px 8px #040000fd;
+      }
+      .line {
+        margin-bottom: 45px;
+        border: 1px solid #b0883e;
+        border-width: thin;
+        line-height: 30px;
+      }
+
+      .image-container {
+        margin: 20px 0;
+      }
+
+      .image {
+        width: 100%;
+        max-width: 1000px;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+
+      #description {
+        font-size: 15px;
+        margin-top: 20px;
+        color: #e3d8ac;
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        line-height: 20px;
+      }
+
+      .orderButton {
+        padding: 15px 25px;
+        background-color: #0e0502;
+        border-width: 1px;
+        border-color: chocolate;
+        border-radius: 20px;
+        color: #dfaa24;
+        cursor: pointer;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        box-shadow: 5px 5px 5px #0f0101e6;
+        transition: all 200ms ease-in-out;
+      }
+
+      .orderButton:hover {
+        background-color: #4c2c1f;
+        color: #0e0502;
+      }
+
+      .socialmedia {
+        color: rgb(109, 109, 109);
+        margin-bottom: 40px;
+        padding: 20px;
+      }
+
+      .adress {
+        color: #dfaa24;
+        margin-bottom: 20px;
+        padding: 0;
+        text-decoration: underline;
+      }
+
+      .insta {
+        color: rgb(109, 109, 109);
+        margin-bottom: 20px;
+        padding: 0;
+      }
+
+      .instagram {
+        color: #dfaa24;
+        margin-bottom: 20px;
+        padding: 0;
+        text-decoration: underline;
+      }
+      .created {
+        color: rgb(109, 109, 109);
+        margin-bottom: 20px;
+        padding: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h4>
+      <ul>
+        <li>
+          <a
+            href="https://busyinbrooklyn.com/brownie-toppings-ideas/"
+            target="_blank"
+            class="topping"
+          >
+            Topping ideias
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://en.wikipedia.org/wiki/Chocolate_brownie"
+            target="_blank"
+            class="moreinfo"
+          >
+            More about Brownies
+          </a>
+        </li>
+      </ul>
+    </h4>
+
+    <div class="container">
+      <h1 id="titulo">Brownerie</h1>
+      <h1 id="titulo">Brownerie</h1>
+      <h3 id="titulo">Brownerie</h3>
+      <h2>The flavour that makes your day 🍫</h2>
+      <div class="image-container">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/161/143/original/merlin_147045984_d26bcb86-12e7-43dd-b807-1b8e16c1e051-superJumbo.jpg?1742768988"
+          alt="Brownies"
+          class="image"
+        />
+      </div>
+
+      <p id="description">
+        At <em>Brownerie</em>, every brownie is a true celebration of taste and
+        indulgence. Made with the finest cocoa, our brownies are not only a
+        treat for the taste buds, but also for the power to change your mood.
+        Cocoa, the main ingredient, is known to release endorphins, giving you
+        feelings of pleasure and well-being with every bite. <br />
+        More than just a sweet treat, our brownies are created with care and
+        dedication. We use only the finest ingredients to ensure a fresh product
+        that is soft on the inside and crunchy on the outside, providing a
+        unique experience with every bite. <br />Because we know that a good
+        sweet can change your day, whether you're relaxing, celebrating or
+        simply enjoying a moment of indulgence.<br /><strong>Brownerie</strong>
+        - With every bite, a little bite of happiness😋!
+      </p>
+
+      <button onclick="orderinteraction()" class="orderButton">
+        Order Now
+      </button>
+
+      <div class="socialmedia">
+        <span class="adress">Email:</span>
+        orders@brownerie.pt<br />
+        <span class="adress">Instagram:</span> @brownerie
+      </div>
+      <hr class="line" />
+    </div>
+
+    <p class="created">This page was built by <em>Ludania David</em></p>
+
+    <script>
+      function orderinteraction() {
+        let h2 = document.querySelector("h2");
+        let name = prompt("What is your name?");
+        let country = prompt("Which country do you live in?");
+        country = country.toLowerCase().trim();
+        if (country === "portugal") {
+          prompt("What is your e-mail adress?");
+          h2.innerHTML =
+            "Hi, " +
+            name +
+            "!" +
+            " " +
+            "We'll be in touch by email!" +
+            " " +
+            "Your order is coming soon 😍!";
+        } else {
+          alert("Sorry, " + name + " we cannot send to your location 😭");
+        }
+      }
+      const button = document.querySelector(".orderButton");
+      button.addEventListener("click", function () {
+        button.innerHTML = "Thank you😍!";
+        setTimeout(function () {
+          window.scrollTo(0, 0);
+        }, 100);
+      });
+      setTimeout(function () {
+        window.scrollTo(0, 0);
+      }, 100);
+    </script>
+  </body>
+</html>
